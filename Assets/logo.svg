@@ -1,0 +1,18 @@
+<!-- Assets/logo.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="200" viewBox="0 0 600 200" role="img" aria-label="HayorDavis Stores logo">
+  <title>HayorDavis Stores</title>
+  <!-- light retail bag icon + clean wordmark -->
+  <g fill="none" fill-rule="evenodd">
+    <!-- bag body -->
+    <rect x="6" y="20" width="72" height="60" rx="8" fill="#ffffff" stroke="#0b3b5b" stroke-width="4"/>
+    <!-- bag handle -->
+    <path d="M15 20c0-8 8-12 24-12s24 4 24 12" stroke="#0b3b5b" stroke-width="4" stroke-linecap="round"/>
+    <!-- accent tag -->
+    <rect x="58" y="64" width="12" height="12" rx="2" fill="#ff6a00"/>
+    <!-- wordmark -->
+    <g transform="translate(100,28)">
+      <text x="0" y="18" font-family="Inter, system-ui, Arial" font-size="36" font-weight="700" fill="#0b3b5b">HayorDavis</text>
+      <text x="0" y="48" font-family="Inter, system-ui, Arial" font-size="14" fill="#6b7280">Stores — Home & Appliances</text>
+    </g>
+  </g>
+</svg>
