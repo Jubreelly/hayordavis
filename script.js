@@ -14,7 +14,7 @@ const shop1Products = [
 ];
 
 const shop2Products = [
-  {id:11,title:'Men & Women Clothes',cat:'clothes',desc:'Stylish outfits, both genders.',img:'Assets/clothes22.jpg',price:5500,stock:14},
+  {id:11,title:'Men & Women Clothes',cat:'clothes',desc:'Stylish outfits for both genders.',img:'Assets/clothes22.jpg',price:5500,stock:14},
   {id:12,title:'Fashion Handbag',cat:'bags',desc:'Daily use handbag.',img:'Assets/bags.jpeg',price:4200,stock:8},
   {id:13,title:'Two-burner Gas Cooker',cat:'appliances',desc:'Portable two-burner cooker.',img:'Assets/two-face burner.jpeg',price:16000,stock:5},
   {id:14,title:'Standing Fan',cat:'fans',desc:'Oscillating standing fan.',img:'Assets/standingfan.jpeg',price:18000,stock:7}
@@ -113,4 +113,5 @@ document.getElementById('contactForm').addEventListener('submit', function(ev){
   this.reset();
   setTimeout(()=>document.getElementById('formStatus').innerText = '', 3000);
 });
+
 
