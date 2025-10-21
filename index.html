@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>HayorDavis Stores — Kitchen & Home | Fashion & Appliances</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <div class="brand">
+        <img src="Assets/logo.png" alt="HayorDavis Stores logo" class="logo" />
+        <div>
+          <h1 class="site-title">HayorDavis Stores</h1>
+          <div class="site-sub">Two locations • Kitchen & Home | Fashion & Appliances</div>
+        </div>
+      </div>
+
+      <nav class="main-nav">
+        <a href="#home">Home</a>
+        <a href="#shop1">Kitchen & Toiletries</a>
+        <a href="#shop2">Fashion & Appliances</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="home" class="hero">
+      <div class="hero-left">
+        <h2>Welcome to HayorDavis Stores</h2>
+        <p class="muted">Quality household goods, kitchen appliances, toiletries, clothes, footwear and home appliances across two convenient Ogun State locations.</p>
+
+        <div class="cta-row">
+          <a class="btn primary" href="#shop1">Shop Kitchen & Toiletries</a>
+          <a class="btn" href="#shop2">Shop Fashion & Appliances</a>
+        </div>
+      </div>
+
+      <div class="hero-cards">
+        <article class="card">
+          <h3>HayorDavis — Mini Campus (Ago Iwoye)</h3>
+          <p class="muted">HaryorDavis store — kitchen appliances, toiletries, laundry baskets, small indoor trash baskets & household essentials.</p>
+          <div class="small">Address: HaryorDavis store, Adj. Mini Campus gate, Ago Iwoye, Ogun State.</div>
+        </article>
+
+        <article class="card">
+          <h3>HayorDavis — Molipa Express (Ijebu Ode)</h3>
+          <p class="muted">Clothes, fashion bags, footwear, standing fans, wall fans, two-burner gas cookers & more.</p>
+          <div class="small">Address: HayorDavis Store, Molipa Express, Adj. NEPA fence, Ijebu Ode, Ogun State.</div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Shop 1 -->
+    <section id="shop1" class="shop-section">
+      <div class="section-head">
+        <h2>Kitchen & Home — (Mini Campus, Ago Iwoye)</h2>
+        <p class="muted">Laundry baskets, indoor trash baskets, toiletries, kitchen appliances & more.</p>
+      </div>
+
+      <div class="toolbar">
+        <input id="search1" type="search" placeholder="Search items in this shop (e.g. 'basket', 'trash')">
+        <select id="cat1">
+          <option value="all">All categories</option>
+          <option value="baskets">Baskets</option>
+          <option value="toiletries">Toiletries</option>
+          <option value="appliances">Kitchen appliances</option>
+        </select>
+      </div>
+
+      <div id="grid1" class="grid"></div>
+    </section>
+
+    <!-- Shop 2 -->
+    <section id="shop2" class="shop-section">
+      <div class="section-head">
+        <h2>Fashion & Appliances — (Molipa Express, Ijebu Ode)</h2>
+        <p class="muted">Clothes, fashion bags, footwear, two-burner gas cookers, electric cookers, standing & wall fans.</p>
+      </div>
+
+      <div class="toolbar">
+        <input id="search2" type="search" placeholder="Search items in this shop">
+        <select id="cat2">
+          <option value="all">All categories</option>
+          <option value="clothes">Clothes</option>
+          <option value="bags">Bags</option>
+          <option value="footwear">Footwear</option>
+          <option value="appliances">Appliances</option>
+          <option value="fans">Fans</option>
+        </select>
+      </div>
+
+      <div id="grid2" class="grid"></div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact-section">
+      <div class="contact-left card">
+        <h3>Contact & Inquiries</h3>
+        <p class="muted">Phone / Whatsapp: <strong>+234 703 667 9275</strong><br>Email: <strong>Temitopefausat76@gmail.com</strong></p>
+
+        <form id="contactForm" class="contact-form">
+          <label for="name">Your name</label>
+          <input id="name" required placeholder="e.g. Sola" />
+
+          <label for="email">Email</label>
+          <input id="email" type="email" placeholder="you@example.com" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" rows="4" placeholder="What would you like to ask?" required></textarea>
+
+          <div class="form-row">
+            <button class="btn primary" type="submit">Send message</button>
+            <div id="formStatus" class="muted small"></div>
+          </div>
+        </form>
+
+        <div class="muted small" style="margin-top:12px">
+          Prefer Whatsapp? <a  class="whats" href="https://wa.me/2347036679275" target="_blank" class="link">Start chat on WhatsApp</a>
+        </div>
+      </div>
+
+      <aside class="contact-right">
+        <div class="card">
+          <h4>Store info</h4>
+          <p class="small"><strong>Mini Campus (Ago Iwoye)</strong><br>HaryorDavis store, Adj. Mini Campus gate, Ago Iwoye, Ogun State.</p>
+          <p class="small"><strong>Molipa Express (Ijebu Ode)</strong><br>HayorDavis Store, Molipa Express, Adj. NEPA fence, Ijebu Ode, Ogun State.</p>
+        </div>
+
+        <div class="card">
+          <h4>Opening hours</h4>
+          <p class="small">Mon – Sat: 8:00 AM – 7:00 PM<br>Sun: 9:00 AM – 3:00 PM</p>
+        </div>
+      </aside>
+    </section>
+
+    <footer class="site-footer">
+      © HayorDavis Stores — Phone: +2347036679275 · Email: Temitopefausat76@gmail.com
+    </footer>
+  </main>
+
+  <!-- Modal -->
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-sheet">
+      <button id="closeModal" class="modal-close" aria-label="Close">✕</button>
+      <div class="modal-media" id="modalImg"></div>
+      <div class="modal-body">
+        <h3 id="modalTitle"></h3>
+        <div class="muted small" id="modalCategory"></div>
+        <p id="modalDesc" class="muted"></p>
+        <div class="price-row">
+          <div class="price">₦<span id="modalPrice">0</span></div>
+          <div class="stock muted">Stock: <span id="modalStock">0</span></div>
+        </div>
+
+        <label>Quantity</label>
+        <input id="qty" type="number" value="1" min="1" />
+
+        <div class="modal-actions">
+          <a id="callBtn" href="tel:+2347036679275" class="btn primary">Call Store</a>
+          <a id="waBtn" class="btn wa" target="_blank">Message on WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
