@@ -7,17 +7,17 @@
    e.g. 'Assets/product-1.jpg'
 */
 const shop1Products = [
-  {id:1,title:'Large Laundry Basket',cat:'baskets',desc:'Durable plastic laundry basket.',img:'Assets/largeBasket.jpeg',price:2500,stock:10},
-  {id:2,title:'Paper Bags',cat:'baskets',desc:'Small paper bags.',img:'Assets/paperbag2.jpeg',price:800,stock:25},
-  {id:3,title:'Toiletries Pack',cat:'toiletries',desc:'Soap, sponge and essentials pack.',img:'Assets/Toiletrypack.jpeg',price:1500,stock:40},
-  {id:4,title:'Plates & Utensils Rack',cat:'appliances',desc:'1L sample electric kettle.',img:'Assets/Plates utensils Rack.jpeg',price:6500,stock:6}
+  {id:1,title:'Large Laundry Bags',cat:'baskets',desc:'Durable plastic laundry basket.',img:'Assets/largeBasket.jpeg',price:7500,stock:99},
+  {id:2,title:'Paper Bags',cat:'baskets',desc:'Small paper bags.',img:'Assets/paperbag2.jpeg',price:800,stock:99},
+  {id:3,title:'Toiletries Pack',cat:'toiletries',desc:'Soap, sponge and essentials pack.',img:'Assets/Toiletrypack.jpeg',price:1500,stock:99},
+  {id:4,title:'Plates & Utensils Rack',cat:'appliances',desc:'1L sample electric kettle.',img:'Assets/Plates utensils Rack.jpeg',price:8500,stock:99}
 ];
 
 const shop2Products = [
-  {id:11,title:'Men & Women Clothes',cat:'clothes',desc:'Stylish outfits for both genders.',img:'Assets/clothes22.jpg',price:5500,stock:14},
-  {id:12,title:'Fashion Handbag',cat:'bags',desc:'Daily use handbag.',img:'Assets/bags.jpeg',price:4200,stock:8},
-  {id:13,title:'Two-burner Gas Cooker',cat:'appliances',desc:'Portable two-burner cooker.',img:'Assets/two-face burner.jpeg',price:16000,stock:5},
-  {id:14,title:'Standing Fan',cat:'fans',desc:'Oscillating standing fan.',img:'Assets/standingfan.jpeg',price:18000,stock:7}
+  {id:11,title:'Men & Women Clothes',cat:'clothes',desc:'Stylish outfits for both genders.',img:'Assets/clothes22.jpg',price:15000,stock:99},
+  {id:12,title:'Fashion Handbag',cat:'bags',desc:'Daily use handbag.',img:'Assets/bags.jpeg',price:5500,stock:99},
+  {id:13,title:'Gas Burners',cat:'appliances',desc:'Portable two-burner cooker.',img:'Assets/two-face burner.jpeg',price:23000,stock:99},
+  {id:14,title:'Standing Fan',cat:'fans',desc:'Oscillating standing fan.',img:'Assets/standingfan.jpeg',price:25000,stock:99}
 ];
 
 // Render helpers
@@ -113,5 +113,6 @@ document.getElementById('contactForm').addEventListener('submit', function(ev){
   this.reset();
   setTimeout(()=>document.getElementById('formStatus').innerText = '', 3000);
 });
+
 
 
