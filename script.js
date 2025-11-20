@@ -14,10 +14,10 @@ const shop1Products = [
 ];
 
 const shop2Products = [
-  {id:11,title:'Men & Women Clothes',cat:'clothes',desc:'Stylish outfits for both genders.',img:'Assets/clothes22.jpg',price:15000,stock:99},
+  {id:11,title:'Men & Women Clothes',cat:'clothes',desc:'Stylish outfits for both genders.',img:'Assets/shirt.jpg',price:15000,stock:99},
   {id:12,title:'Fashion Handbag',cat:'bags',desc:'Daily use handbag.',img:'Assets/bags.jpeg',price:5500,stock:99},
   {id:13,title:'Gas Burners',cat:'appliances',desc:'Portable two-burner cooker.',img:'Assets/two-face burner.jpeg',price:23000,stock:99},
-  {id:14,title:'Standing Fan',cat:'fans',desc:'Oscillating standing fan.',img:'Assets/standingfan.jpeg',price:25000,stock:99}
+  {id:14,title:'Standing Fan',cat:'fans',desc:'Oscillating standing fan.',img:'Assets/fan4.jpg',price:25000,stock:99}
 ];
 
 // Render helpers
@@ -113,6 +113,7 @@ document.getElementById('contactForm').addEventListener('submit', function(ev){
   this.reset();
   setTimeout(()=>document.getElementById('formStatus').innerText = '', 3000);
 });
+
 
 
 
